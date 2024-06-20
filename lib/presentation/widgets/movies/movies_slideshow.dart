@@ -52,7 +52,7 @@ class _Slide extends StatelessWidget {
       child: DecoratedBox(
           decoration: decoration,
           child: GestureDetector(
-            onTap: () => context.push('/movie/${movie.id}'),
+            onTap: () => context.push('/home/0/movie/${movie.id}'),
             child: ClipRRect(
               borderRadius: BorderRadius.circular(20),
               child: Image.network(
